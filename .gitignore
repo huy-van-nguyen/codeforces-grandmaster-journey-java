@@ -1,16 +1,7 @@
-# Compiled class file
+#########################################################
+# Java build outputs
+#########################################################
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -19,6 +10,88 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# JVM crash logs
 hs_err_pid*
 replay_pid*
+
+# Log files
+*.log
+
+#########################################################
+# Maven
+#########################################################
+target/
+
+#########################################################
+# Gradle
+#########################################################
+.gradle/
+build/
+**/build/
+
+# Gradle Wrapper jar (keep)
+!gradle/wrapper/gradle-wrapper.jar
+
+#########################################################
+# IntelliJ IDEA
+#########################################################
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+#########################################################
+# Eclipse
+#########################################################
+.project
+.classpath
+.csettings/
+.settings/
+
+#########################################################
+# VSCode
+#########################################################
+.vscode/
+
+#########################################################
+# OS-generated files
+#########################################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#########################################################
+# Mobile Tools for Java (J2ME)
+#########################################################
+.mtj.tmp/
+
+#########################################################
+# SonarQube
+#########################################################
+.sonar/
+.scannerwork/
+
+#########################################################
+# Others (optional)
+#########################################################
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Docker
+docker-compose.override.yml
+*.env
+.env.*
+.dockerignore
+
+# Node (nếu dùng frontend trong project)
+node_modules/
+dist/
+build/
+
+# Python (nếu dùng script hỗ trợ)
+__pycache__/
+*.py[cod]
+*.pyo
